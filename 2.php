@@ -12,6 +12,7 @@ $con=mysqli_connect("localhost","root","","payal");
 <div class="container mt-5">
 		<form class="emptb" action="2.php" method="POST">
 		<input type="submit" class="btn btn-primary" value="submit"></br></br>
+		<input type="submit" class="btn btn-info" value="clear"></br></br>
 		<input type="text" placeholder="Search emp code" name="search"></br></br>
         <button><i class="fa fa-search"style="font-size: 18px;"></i></button>
 		<table class="table"  border="1"  width="20%">
@@ -50,7 +51,8 @@ $con=mysqli_connect("localhost","root","","payal");
 		<th><?php echo $row['city'];?>
 		<th><?php echo $row['state'];?>
 		<th><?php echo $row['country'];?>
-		<td><a class="btn btn-danger" href="3.php?id=<?php echo $row['id']; ?>">Delete</a><br>
+		<td><a class="btn btn-primary" href="update.php?id<?php echo $row['id'];?>">Update</a><br>
+		<td><a class="btn btn-danger" href="delete.php?id=<?php echo $row['empcode']; ?>">Delete</a><br>
 		<?php
 		}
 	}
@@ -65,6 +67,9 @@ $con=mysqli_connect("localhost","root","","payal");
 			
 			
 	
+
+	
+
 
 	
 
