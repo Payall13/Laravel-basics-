@@ -40,8 +40,7 @@
 	<th><?php echo $row['city'];?>
 	<th><?php echo $row['state'];?>
 	<th><?php echo $row['country'];?>
-	<td><a class="btn btn-primary" href="update.php?id=<?php echo $row['empcode'];?>">Update</a><br>
-	<td><a class="btn btn-danger" href="delete.php?id=<?php echo $row['empcode']; ?>">Delete</a><br>
+	
 <?php
 		}
 	}
