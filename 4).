@@ -1,0 +1,14 @@
+<?php
+class pgdca
+{
+	public $x=10;
+	public $y=20;
+	public function add()
+	{
+		return $this->x+$this ->y;
+	}
+}
+$obj=new pgdca;
+$z=$obj->add();
+echo $z;
+?>
