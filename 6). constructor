@@ -1,0 +1,11 @@
+<?php
+class test
+{
+	public $a="hello gitanjali students";
+	public function __construct()
+	{
+		echo $this->a;
+	}
+}
+$obj=new test;
+?>
