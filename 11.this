@@ -1,0 +1,18 @@
+<?php
+class test
+{
+	public $a=10;
+	public $b=15;
+	public function test1()
+	{
+		$c=$this->a+$this->b;
+		echo $c;
+	}
+}
+$obj=new test;
+$obj->test1();
+?>
+
+
+\\
+25
