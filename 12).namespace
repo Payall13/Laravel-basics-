@@ -1,0 +1,13 @@
+<?php
+namespace geet;
+	function test()
+{
+	echo "hello";
+}
+namespace\test();
+	
+?>
+
+
+\\
+hello
