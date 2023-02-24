@@ -1,0 +1,32 @@
+<?php
+class demo
+{
+	public $a=100;
+	public $b=20;
+	function add()
+	{
+		echo $this->a + $this->b;
+		echo "<br>";
+	}
+	function __construct()
+	{
+		echo $this->a * $this->b;
+		echo "<br>";
+	}
+	function div()
+	{
+		echo $this->a / $this->b;
+		echo "<br>";
+	}
+	function __destruct()
+	{
+		echo $this->a - $this->b;
+		echo "<br>";
+	}
+}
+$obj=new demo;
+$obj->add();
+$obj->div();
+	
+
+?>
