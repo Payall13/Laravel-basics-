@@ -1,0 +1,13 @@
+<?php
+class database
+{
+	public function createdb()
+	{
+		$con=mysqli_connect("localhost","root","","");
+		$dbname="CREATE DATABASE`pgdca`";
+		$resultdb=mysqli_query($con,$dbname);
+	}
+}
+$obj=new database;
+$obj->createdb();
+?>
