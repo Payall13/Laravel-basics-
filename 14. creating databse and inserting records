@@ -11,3 +11,18 @@ class database
 $obj=new database;
 $obj->createdb();
 ?>
+
+
+<?php
+class database
+{
+	public function insrecord()
+	{
+		$con=mysqli_connect("localhost","root","","pgdca");
+		$ins="INSERT INTO `records`( `username`, `password`) VALUES ('payal','123')";
+		$result=mysqli_query($con,$ins);
+	}
+}
+$obj=new database;
+$obj->insrecord();
+?>
