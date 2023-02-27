@@ -1,0 +1,38 @@
+<?php
+spl_autoload_register(function($class)
+{
+	include $class.'.php';
+});
+$obj=new stud;
+$obj->stud_method();
+echo "<br>";
+$obj=new emp;
+$obj->emp_method();
+?>
+
+
+
+<?php
+class stud
+{
+	public function stud_method()
+	{
+		echo "hello";
+	}
+}
+
+
+?>
+
+
+<?php
+class stud
+{
+	public function stud_method()
+	{
+		echo "hello";
+	}
+}
+
+
+?>
