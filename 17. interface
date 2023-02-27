@@ -1,0 +1,18 @@
+<?php
+interface A
+{
+	public function disp();
+}
+class demo implements A
+{
+	public function disp()
+	{
+		echo "this is display method";
+	}
+}
+$obj=new demo;
+$obj->disp();
+?>
+
+//
+this is display method
