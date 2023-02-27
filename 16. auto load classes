@@ -11,6 +11,12 @@ $obj->emp_method();
 ?>
 
 
+//
+hello
+students
+Welcome to PGDCA
+
+
 
 <?php
 class stud
