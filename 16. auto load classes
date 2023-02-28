@@ -15,30 +15,3 @@ $obj->emp_method();
 hello
 students
 Welcome to PGDCA
-
-
-
-<?php
-class stud
-{
-	public function stud_method()
-	{
-		echo "hello";
-	}
-}
-
-
-?>
-
-
-<?php
-class stud
-{
-	public function stud_method()
-	{
-		echo "hello";
-	}
-}
-
-
-?>
