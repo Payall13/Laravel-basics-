@@ -1,0 +1,22 @@
+
+
+<?php 
+    $con=new mysqli("localhost","root","","pgdca");
+    $select="SELECT * FROM `records`";
+    $res=$con->query($select);
+    while($a=$res->fetch_array())
+    {
+?>
+<tr>
+        <td><?php echo $a['username']; ?></td><br><br>
+		
+        <td><?php echo $a['email']; ?></td><br><br>
+</tr>
+<?php }?>
+
+
+///
+
+
+payal
+payal@gmail.com
